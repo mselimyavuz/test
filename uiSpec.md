@@ -31,8 +31,8 @@ Date | Version | Comments
 Issue ID | Description
 --- | ---
 N/A |
-
 [<div style="text-align: right">[Top]</div>](#toc_4)
+
 
 ***
 
@@ -55,7 +55,9 @@ The specification is comprised of two sections:
 
 The layout should look like the following screen. 
 
-![the UI](ui.png)
+![the UI](https://raw.githubusercontent.com/mselimyavuz/test/main/ui.png)
+
+[<div style="text-align: right">[Top]</div>](#toc_4)
 
 ###### Description
 
@@ -84,10 +86,13 @@ The layout should look like the following screen.
 | | Check box | Enabled: | Checkbox to enable the user. | | | Unchecked | Yes |
 
 [<div style="text-align: right">[Top]</div>](#toc_4)
+
 ***
 
 ##### Dialogues
+
 All interaction should happen on the same page. There should be no pop-up dialogues on that page. The page should renew to reflect the changes. 
+
 [<div style="text-align: right">[Top]</div>](#toc_4)
 
 ***
