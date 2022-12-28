@@ -73,7 +73,7 @@ The layout should look like the following screen.
 | | Layout | | The main section should have two columns. | | | | |
 | | Left column | | | | | | |
 | | User List | | It should be the only main element in the left column. | | | | |
-| | User List Category Row | ID, User Name, Email, Enabled | This is the categories of the four-column list. Each column should have the option to order the list in descending and ascending order by that column. | | | | |
+| | User List Category Row | ID, User Name, Email, Enabled | This is the categories of the four-column list. Each column should have the option to order the list in descending and ascending order by that column. Also each column should have a filter option. | | | | |
 | | Users list | | The list rows should have different-colored backgrounds for even and odd rows. | | | | |
 | | Right column | | | | | | |
 | | New User Form | | It should be the only main element in the right column. Every text should be left-aligned. The labels should be placed to the left of user input elements. | | | | |
