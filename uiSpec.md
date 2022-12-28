@@ -59,29 +59,29 @@ The layout should look like the following screen.
 
 ###### Description
 
-Section | Element | Label | Description | Constraints | Validation | Default Value | Mandatory for User
---- | --- | --- | --- | --- | --- | --- | --- | ---
-Page | | | The page should have a solid white (#FFFFFF) background and should contrast user interaction with a blue palette. 
-Menu | 
- | Menu Bar | | The menu bar should have 3 elements with which the user can interact. It should have a light gray background (gray enough to differentiate it from the background of the page).
- | Button | + New User | The button to open the new user form in the main section should be placed at the leftmost position on the menu bar. The label is centered. | 
- | Check Box | Hide Disabled Users | The checkbox should be to the right of the new user button. | | | Unchecked | No
- | Button | Save User | The button to save entered user details should be placed at the rightmost position on the menu bar. The label is centered. |
-Main Section |
- | Layout | | The main section should have two columns. |
- | Left column | 
- | User List | | It should be the only main element in the left column. |
- | User List Category Row | ID, User Name, Email, Enabled | This is the categories of the four-column list. Each column should have the option to order the list in descending and ascending order by that column. |
- | Users list | | The list rows should have different-colored backgrounds for even and odd rows. 
- | Right column |
- | New User Form | | It should be the only main element in the right column. Every text should be left-aligned. The labels should be placed to the left of user input elements. |
- | Form Heading | New User | It should give the label with a the same-shade-gray background of the menu bar. |
- | Text box | Username: | Text box username entry. | 30-character text | Alpha-numerical characters with the addition of underscore ([A-Za-z0-9_]) | | Yes
- | Text box | Display Name: | Text box username entry. | 30-character text | UTF-8 letters and clicks (for Khoisan languages) | | Yes
- | Text box | Phone: | Text box username entry. | 16-character text | ITU-T E.123 International Notation | | Yes
- | Text box | Email: | Text box username entry. | 30-character text | ITU-T E.123 Notation for electronic mail addresses | | Yes
- | Dropdown menu | User roles: | Dropdown menu for user role selection. | Guest, Admin, SuperAdmin | | Select user roles... | Yes
- | Check box | Enabled: | Checkbox to enable the user. | | | Unchecked | Yes
+| Section | Element | Label | Description | Constraints | Validation | Default Value | Mandatory for User |
+|--- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Page | | | The page should have a solid white (#FFFFFF) background and should contrast user interaction with a blue palette. | | | | |
+| Menu | | | | | | | |
+| | Menu Bar | | The menu bar should have 3 elements with which the user can interact. It should have a light gray background (gray enough to differentiate it from the background of the page). | | | | |
+| | Button | + New User | The button to open the new user form in the main section should be placed at the leftmost position on the menu bar. The label is centered. | | | | |
+| | Check Box | Hide Disabled Users | The checkbox should be to the right of the new user button. | | | Unchecked | No |
+| | Button | Save User | The button to save entered user details should be placed at the rightmost position on the menu bar. The label is centered. | | | | |
+| Main Section | | | | | | | |
+| | Layout | | The main section should have two columns. | | | | |
+| | Left column | | | | | | |
+| | User List | | It should be the only main element in the left column. | | | | |
+| | User List Category Row | ID, User Name, Email, Enabled | This is the categories of the four-column list. Each column should have the option to order the list in descending and ascending order by that column. | | | | |
+| | Users list | | The list rows should have different-colored backgrounds for even and odd rows. | | | | |
+| | Right column | | | | | | |
+| | New User Form | | It should be the only main element in the right column. Every text should be left-aligned. The labels should be placed to the left of user input elements. | | | | |
+| | Form Heading | New User | It should give the label with a the same-shade-gray background of the menu bar. | | | | |
+| | Text box | Username: | Text box username entry. | 30-character text | Alpha-numerical characters with the addition of underscore ([A-Za-z0-9_]) | | Yes |
+| | Text box | Display Name: | Text box username entry. | 30-character text | UTF-8 letters and clicks (for Khoisan languages) | | Yes |
+| | Text box | Phone: | Text box username entry. | 16-character text | ITU-T E.123 International Notation | | Yes |
+| | Text box | Email: | Text box username entry. | 30-character text | ITU-T E.123 Notation for electronic mail addresses | | Yes |
+| | Dropdown menu | User roles: | Dropdown menu for user role selection. | Guest, Admin, SuperAdmin | | Select user roles... | Yes |
+| | Check box | Enabled: | Checkbox to enable the user. | | | Unchecked | Yes |
 
 [<div style="text-align: right">[Top]</div>](#toc_4)
 ***
